@@ -270,6 +270,14 @@ hr {
 
 /* MEDIA QUERIES */
 @media (max-width:1454px) {
+  .logo {
+    position: absolute;
+    right: 15%;
+    top: 3%;
+    opacity: 35%;
+    width: 20rem;
+  }
+
   .logo-bottom {
     display: none;
   }
@@ -299,7 +307,7 @@ hr {
   .logo {
     position: absolute;
     right: 15%;
-    top: 15%;
+    top: 3%;
     opacity: 35%;
     width: 20rem;
   }
