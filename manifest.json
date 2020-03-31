@@ -1,0 +1,37 @@
+{
+    "short_name": "TDP Graphic",
+    "name": "TDP Graphic",
+    "description": "TDP Graphic does everything you need on the internet and this is the website that they showcase their work.",
+    "icons": [
+      {
+        "src": "images/android-chrome-192x192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "images/android-chrome-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      },
+      {
+        "src": "apple-touch-icon.png",
+        "type": "image/png",
+        "sizes": "180x180"
+      },
+      {
+        "src": "images/favicon-16x16.png",
+        "type": "image/png",
+        "sizes": "16x16"
+      },
+      {
+        "src": "images/favicon-32x32.png",
+        "type": "image/png",
+        "sizes": "32x32"
+      }
+    ],
+    "start_url": "https://tdpg.github.io/tdpg/",
+    "background_color": "#93c2cc",
+    "display": "standalone",
+    "scope": "https://tdpg.github.io/tdpg/",
+    "theme_color": "#93c2cc"
+  }
