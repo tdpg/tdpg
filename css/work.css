@@ -305,12 +305,7 @@ hr {
   }
 
   .logo-bottom {
-    position: absolute;
-    left: 15%;
-    bottom: -570%;
-    opacity: 35%;
-    width: 15rem;
-    display: inline-block;
+    display: none;
   }
 
   svg {

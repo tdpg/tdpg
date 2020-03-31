@@ -8,13 +8,12 @@
   <script src="https://kit.fontawesome.com/fcea854313.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/work.css">
-  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-  <title>tdp</title>
+  <title>TDP | Work</title>
 </head>
 
 <body>
 
-  <div class="container">
+  <div class="container anim">
 
     <div class="header">
       <a href="index.html"><i class="back-btn fas fa-angle-left fa-5x"></i></a>
@@ -24,7 +23,7 @@
 
     <section>
 
-      <a href="#">
+      <a href="work/calendar.html">
         <div class="card anim">
           <img src="assets/org/calendar.jpg">
           <div class="info">
@@ -36,7 +35,7 @@
         </div>
       </a>
 
-      <a href="#">
+      <a href="work/je.html">
         <div class="card anim">
           <img src="assets/org/je.jpg">
           <div class="info">
@@ -48,7 +47,7 @@
         </div>
       </a>
 
-      <a href="#">
+      <a href="work/cheap-oyun.html">
         <div class="card anim">
           <img src="assets/org/cheap-oyun.jpg">
           <div class="info">
@@ -66,7 +65,7 @@
 
 
 
-      <a href="#">
+      <a href="work/drj.html">
         <div class="card anim">
           <img src="assets/org/drj.jpg">
           <div class="info">
@@ -78,7 +77,7 @@
         </div>
       </a>
 
-      <a href="#">
+      <a href="work/dktt.html">
         <div class="card anim">
           <img src="assets/org/dktt.jpg">
           <div class="info">
@@ -93,7 +92,7 @@
       </a>
 
 
-      <a href="#">
+      <a href="work/burki.html">
         <div class="card anim">
           <img src="assets/org/burki.jpg">
           <div class="info">
@@ -105,7 +104,7 @@
         </div>
       </a>
 
-      <a href="#">
+      <a href="work/mdb.html">
         <div class="card anim">
           <img src="assets/org/mdb.jpg">
           <div class="info">
@@ -124,7 +123,7 @@
 
 
 
-      <a href="#">
+      <a href="work/k7au.html">
         <div class="card anim">
           <img src="assets/org/k7au.jpg">
           <div class="info">
@@ -200,24 +199,9 @@
     window.addEventListener("scroll", onScroll)
 
 
-    const titles = document.querySelectorAll(".anim");
-
-    observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting == true) {
-          entry.target.classList.add("animate-right");
-        } else {
-          entry.target.classList.remove("animate-right");
-        }
-      })
-    })
-
-    titles.forEach(title => {
-      observer.observe(title);
-    })
   </script>
 
-  <script src="main.js" charset="utf-8"></script>
+  <script src="../anim.js" charset="utf-8"></script>
 </body>
 
 </html>
