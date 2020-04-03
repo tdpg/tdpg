@@ -23,6 +23,8 @@
   --color-white: #fff;
 }
 
+
+/* GENERAL RULES */
 html {
   scroll-behavior: var(--main-scroll-behavior);
   box-sizing: border-box;
@@ -33,6 +35,10 @@ body {
   font-family: var(--main-font-family);
   color: var(--main-text-color);
   /* height: 800vh; */
+}
+
+a {
+  cursor: pointer;
 }
 
 /* ALL SECTIONS */
